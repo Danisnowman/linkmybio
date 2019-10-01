@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Saint Warhead | Rapper, designer, nerd trapper.</title>
+    <link rel="stylesheet" type="text/css" href="static/stylesheets/base.css">
+    <link rel="stylesheet" type="text/css" href="static/stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img class="prof-pic" src="static/img/profile_picture.jpg" alt="Photo of Saint Warhead" />
+            <p class="user-name">
+                <a href="#">{{links.get("name")}}</a>
+            </p>
+        </header>
+        <main>
+            <ul>
+                {% for key, value in links.iteritems() %}
+                    <li>{{ key }}</li>
+                    <dd>{{ value }}</dd>
+                {% endfor %}
+            </ul>
+            <!-- <ul>
+                <li><a href="https://soundcloud.com/saintwarhead" class="link">Music</a></li>
+                <li><a href="https://www.youtube.com/user/StWarhead" class="link">Videos</a></li>
+                <li><a href="https://tjbear.myportfolio.com/" class="link">Design Portfolio</a></li>
+                <li><a href="https://open.spotify.com/user/1232540115/playlist/6bgIsEDpzTwRW8ilG0GYMv?si=BeuVSHqCSCacyQEM0dx6VQ" class="link">Weekly Curated Playlist</a></li>
+                <li><a href="https://www.twitch.tv/warheaddestroys" class="link">Twitch</a></li>
+                <li><a href="http://facebook.com/saintwarhead" class="link">Facebook</a></li>
+                <li><a href="http://twitter.com/saintwarhead" class="link">Twitter</a></li>
+            </ul> -->
+        </main>
+        <!-- <footer>
+            <img src="{{ url_for('static', filename='img/logo1.png') }}" alt="Saint Warhead Logo" />
+        </footer> -->
+    </div>
+</body>
+
+</html>
