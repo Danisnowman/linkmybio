@@ -13,19 +13,23 @@ shortbio: "Second year CompSci student ufm, passionate about theology, photogtap
 # - description: this will appear as the text in the button of your link
 
 links:
-    - facebook:
+    - 1:
+        name: Facebook
         enable: True
         link: "https://fb.com/danisnowman"
         description: "Facebook Profile"
-    - instagram:
+    - 2:
+        name: Instagram
         enable: True
         link: "https://url_to_your.instagram.profile"
         description: "How Cool my photos are in instagram :camera:"
-    - blog:
+    - 3:
+        name: Youtube
         enable: False
         link: "lorem ipsum"
         description: "lorem ipsum dorem"
-    - etc:
+    - 4:
+        name: 
         enable: False
         link: "http://etc.etc"
         description: "any other link you want your followers to see"
