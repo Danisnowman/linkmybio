@@ -14,22 +14,27 @@ shortbio: "Second year CompSci student ufm, passionate about theology, photogtap
 
 links:
     - 1:
-        name: Facebook
+        name: Personal Facebook
         enable: True
-        link: "https://fb.com/danisnowman"
+        link: "https://fb.com/snowminal"
         description: "Facebook Profile"
     - 2:
-        name: Instagram
+        name: Main Instagram
         enable: True
-        link: "https://url_to_your.instagram.profile"
+        link: "https://instagram.com/danisnowman"
         description: "How Cool my photos are in instagram :camera:"
     - 3:
-        name: Youtube
-        enable: False
-        link: "lorem ipsum"
-        description: "lorem ipsum dorem"
+        name: Second Instagram
+        enable: True
+        link: "https://instagram.com/snowminal"
+        description: "Instagram (misc.)"
     - 4:
-        name: 
+        name: Twitter
         enable: False
-        link: "http://etc.etc"
-        description: "any other link you want your followers to see"
+        link: "https://twitter.com/snowminal"
+        description: "Twitter"
+    - 5:
+        name: Facebook Fan Page
+        enable: True
+        link: "https://fb.com/danisnowman"
+        description: "Facebook Fan Page"
