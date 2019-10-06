@@ -91,7 +91,7 @@ See you can add any style to your own project. These are only ideas.
 # Usage
 
 To run the web app just run:
-```{r, engine='bash'}
+```bash
 python3 bio.py
 ```
 
