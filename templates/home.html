@@ -13,9 +13,12 @@
 <body>
     <div class="container">
         <header>
-            <img class="prof-pic" src="static/img/profile_picture.jpg" alt="Photo of Saint Warhead" />
+            <img class="prof-pic" src="{{links.get('picture')}}" alt="Photo of danisnowman" />
             <p class="user-name">
                 <a href="#">{{links.get("name")}}</a
+            </p>
+            <p class="shortbio" >
+                {{links.get("shortbio")}}
             </p>
         </header>
         <div>

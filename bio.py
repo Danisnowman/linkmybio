@@ -2,8 +2,7 @@
 from flask import Flask, jsonify, render_template, request
 app = Flask(__name__)
 from social_media import *
-import os,optparse
-import yaml
+import os, optparse, yaml
 
 environment=os.getenv("ENVIRONMENT", "development")
 
